@@ -1,0 +1,33 @@
+/* Your code here */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    cursor: pointer;   
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.center-text {
+    margin-bottom: 20px;
+}
